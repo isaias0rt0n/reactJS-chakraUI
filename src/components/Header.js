@@ -24,7 +24,7 @@ const Header = () => {
             <Link href='/'>Home</Link>
           </Box>
           <Box position='relative'>
-            <Link href='/'>Formulário</Link>
+            <Link href='/form'>Formulário</Link>
           </Box>
           <Box position='relative'>
             <Link href='/'>Cartão</Link>
