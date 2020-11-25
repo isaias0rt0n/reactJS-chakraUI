@@ -10,10 +10,10 @@ const Header = () => {
   const bgColor = { light: 'gray.300', dark: 'gray.600' };
   const textColor = { light: 'black', dark: 'gray.100'}
   return (
-    <Flex w='100vw' h='7vh' boxShadow='md' p={2}
+    <Flex w='100vw' h='7vh' boxShadow='md' p={2} align='center' justify='center'
       bg={bgColor[colorMode]}
       color={textColor[toggleColorMode]}
-      fontSize={['md', 'lg', 'xl', 'xl']}
+      fontSize={['md', 'lg', 'xl', 'xl']} 
     >
       <Flex w={['100vw', '100vw', '80vw', '80vw']} justify='space-around'>
         <Box >
@@ -27,7 +27,7 @@ const Header = () => {
             <Link href='/form'>Formulário</Link>
           </Box>
           <Box position='relative'>
-            <Link href='/'>Cartão</Link>
+            <Link href='/card'>Cartão</Link>
           </Box>
           <Box position='relative'>
             <Link href='/'>Lista</Link>

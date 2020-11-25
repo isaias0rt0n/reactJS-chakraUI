@@ -11,7 +11,7 @@ function Form () {
   return (
     <Box 
     bg={colorMode === 'light' ? 'gray.300' : 'teal.500'}
-    w='350px' p={3} boxShadow='sm' rounded='lg'>
+    w='350px' p={3} boxShadow='lg' rounded='lg'>
       <Image src={Security} w='80px' mx='auto' mt={12} mb={10}/>
       <Tabs variant='enclosed' isFitted m={4} colorScheme="white">
         <TabList >
