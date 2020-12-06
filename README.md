@@ -1,7 +1,8 @@
 # Simple project using React with chakra-ui
 
 ### Chakra UI is a component library for React that makes it easy to build the UI of an app or website.
-
+-[Chakra-ui](https://chakra-ui.com/)
+<br><br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
